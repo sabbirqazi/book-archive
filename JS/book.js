@@ -80,9 +80,9 @@ const showBooks = (booksArray) =>{
           
             <div class="card-body">
               <h3 class="card-title text-white">${book.title}</h3>
-              <h5 class="card-text text-warning">Author: ${book.author_name[0]} </h5>
+              <h5 class="card-text text-warning fst-italic">Author: ${book.author_name[0]} </h5>
               <p class="card-text text-white">First Publish: ${book.first_publish_year}</p>
-              <p class="card-text text-warning">Publisher: ${book.publisher[0]}</p>
+              <p class="card-text text-white">Publisher: ${book.publisher[0]}</p>
             
             </div>
         </div>
