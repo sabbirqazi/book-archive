@@ -21,7 +21,9 @@
    </style>
 </head>
 <body>
+    <!-- title input field, button section -->
     <section class="container mt-5">
+      <h1 class="text-center">The Book Lounge</h1>
         <!-- Input Box -->
         <div class="d-flex">
           <input
@@ -33,28 +35,21 @@
           <button class="btn btn-dark" id="search-btn">Search</button>
         </div>
       </section>
+
        <!--display container  -->
        <section class="container mt-2">
-        <div class="bg-danger" id="error"></div>
+
+        <!-- books number showing  -->
+        <div class="bg-success my-4   text-white text-center" id="result-number"></div>
+
+        <!-- error -->
+        <div class="bg-danger text-center text-white my-4 " id="error"></div>
        
            <!-- Books -->
         <div id="books-container" class="row">
-
-           <!--  <div class="card mb-3" style="max-width: 440px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="..." class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h3 class="card-title">book title</h3>
-                      <h5 class="card-text">author name </h5>
-                      <p class="card-text">first publish</p>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
-            <!-- added div -->
+          
+          <!-- books will be added here after valid search -->
+          
         </div>
       </section>
     <script src="JS/book.js"></script>
